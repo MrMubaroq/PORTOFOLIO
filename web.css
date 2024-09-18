@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+
+.navbar {
+width: 1024px;
+margin: auto;
+padding: 20px 0px 10px 0px;
+}
+nav {
+    background-color: #222831;
+}
+nav .navbar {
+    display: flex;
+    justify-content: space-between;
+   font-size: 1.1rem;
+  
+}
+.menu {
+    width: 50%;
+}
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.menu ul li a:hover {
+    color: aqua;
+}
+.logo {
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: 800;
+}
+.logo span {
+    color: aqua;
+}
+img {
+padding: 40px 20px;
+border-radius: 50%;
+width: 20%;
+height: 40%;
+
+}
+
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+.kolom {
+    margin: 100px;
+    
+
+}
+.kolom .deskripsi {
+    font-size: 35px;
+    font-weight: bold;
+    color: #ffffff;
+}
+h1{
+    font-weight: 800;
+    margin-bottom: 30px;
+    color: #ffffff;
+    
+}
+p {
+    color: #ffffff;
+    font-size: 25px;
+}
+.kolom .deskripsi span {
+    color: aqua;
+}
+h2 {
+    color: #23f4ff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+ul li {
+    color: #ffffff;
+}
+footer {
+    background-color: #222831;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
